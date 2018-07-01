@@ -3,7 +3,7 @@ This Simon Says game is modified to suit the use of the Pi-top's Inventor's Kit.
 Each Inventor's Kit only has 2 buttons and 3 colors of LEDs. Hence, this game
 will generate Simon's steps in sequence of "left" or "right", with left button
 controlling the left side red LED, while the right button controlling the right
-side green button.
+side green LED.
 
 You can turn off the printing of Simon's steps by commenting out line 49:
 print("Simon's steps:", simon_steps)
