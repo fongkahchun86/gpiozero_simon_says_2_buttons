@@ -5,14 +5,13 @@ will generate Simon's steps in sequence of "left" or "right", with left button
 controlling the left side red LED, while the right button controlling the right
 side green button.
 
-You can turn off the printing of Simon's steps by commenting out line 50:
+You can turn off the printing of Simon's steps by commenting out line 49:
 print("Simon's steps:", simon_steps)
 """
 
 from gpiozero import LED, Buzzer, Button
 from random import choice
 from time import sleep
-#from signal import pause
 
 led_r = LED(4)
 led_g = LED(5)
@@ -111,5 +110,3 @@ bn_right.when_released = bn_right_released
 
 simon_steps.append(choice(options))
 show_simon_steps()
-
-#pause()
