@@ -37,12 +37,6 @@ def correct_bz():
     bz.on()
     sleep(0.5)
     bz.off()
-    '''
-    sleep(0.05)
-    bz.on()
-    sleep(0.2)
-    bz.off()
-    '''
 #correct_bz()
 
 def show_simon_steps():
